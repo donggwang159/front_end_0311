@@ -25,4 +25,4 @@ jobs:
           username: ${{ secrets.PUBLIC_USER }}
           key: ${{ secrets.PRIVATE_SSH_KEY }}
           source: "./*"
-          target: "/var/www/html"
+          target: "/var/www/html/front_end_0311"
